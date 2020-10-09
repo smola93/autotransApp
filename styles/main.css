@@ -92,7 +92,20 @@ table {
 	border-radius: 10px;
 }
 
+.list-element-return {
+	padding: 7px;
+	margin-top: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
 .list-element:hover {
+	background-color: rgb(152, 152, 211);
+	cursor: pointer;
+}
+
+.list-element-return:hover {
 	background-color: rgb(152, 152, 211);
 	cursor: pointer;
 }
@@ -103,6 +116,11 @@ table {
 }
 
 /* INPUTS */
+
+.input-header {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
 
 .dropdown {
 	display: flex;
@@ -121,10 +139,47 @@ table {
 
 .mech {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
 }
 
 .paint {
 	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.other {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.normal-input {
+	width: 20%;
+	margin-bottom: 5px;
+}
+
+.extended-input {
+	width: 20%;
+	height: 100px;
+	margin-bottom: 5px;
+}
+
+.label {
+	margin-bottom: 3px;
+}
+
+.button {
+	width: 10%;
+	height: 40px;
+	margin-bottom: 5px;
 }
 
 /* FOOTER */
