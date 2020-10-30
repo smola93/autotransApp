@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles/main.css">
@@ -7,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto-Trans App</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body class="body">
@@ -17,11 +19,14 @@
                 alt="Logo" width="100" height="100">
             <h1 class="header_text">Auto-Trans App v1.0</h1>
         </header>
+        <ul>
+        		<c:forEach var="listValue" items="">
+        			<li></li>
+        		</c:forEach>
+        	</ul>
         <nav class="nav">
             <ul>
-                <li class="list-element"><a class="link" href=make_order.html>Dodaj Zlecenie</a></li>
-                <li class="list-element">Znajdź Zlecenie</li>
-                <li class="list-element">Wypierdalaj!</li>
+                <li class="list-element-return"><a class="link" href="/index">Powrót</a></li>
             </ul>
         </nav>
     </div>

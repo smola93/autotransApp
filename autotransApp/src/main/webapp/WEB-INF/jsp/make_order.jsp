@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles/main.css">
@@ -45,6 +46,7 @@
             <input class="extended-input" type="text">
             <button class="button" type="button">Dodaj zdjęcia</button>
             <button class="button" type="button">Dodaj kosztorys</button>
+            <button class="add" type="button">Dodaj do bazy</button>
         </div>
         <div class="paint">
             <p class="input-header">Szczególy naprawy blacharsko-lakierniczej:</p>
@@ -64,15 +66,17 @@
             <input class="extended-input" type="text">
             <button class="button" type="button">Dodaj zdjęcia</button>
             <button class="button" type="button">Dodaj kosztorys</button>
+            <button class="add" type="button">Dodaj do bazy</button>
         </div>
         <div class="other">
             <p class="input-header">Inne zlecenie:</p>
             <label class="label" for="paint-parts">Opisz zlecenie:</label>
             <input class="extended-input" type="text">
+            <button class="add" type="button">Dodaj do bazy</button>
         </div>
         <nav class="nav">
             <ul>
-                <li class="list-element-return"><a class="link" href=index.html>Powrót</a></li>
+                <li class="list-element-return"><a class="link" href="/index">Powrót</a></li>
             </ul>
         </nav>
     </div>
